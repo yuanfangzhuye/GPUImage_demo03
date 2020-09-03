@@ -3,17 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F25160B824F6190800B27781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160B724F6190800B27781 /* AppDelegate.m */; };
-		F25160BB24F6190800B27781 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160BA24F6190800B27781 /* SceneDelegate.m */; };
-		F25160BE24F6190800B27781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160BD24F6190800B27781 /* ViewController.m */; };
 		F25160C124F6190800B27781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25160BF24F6190800B27781 /* Main.storyboard */; };
 		F25160C324F6190900B27781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25160C224F6190900B27781 /* Assets.xcassets */; };
 		F25160C624F6190900B27781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25160C424F6190900B27781 /* LaunchScreen.storyboard */; };
 		F25160C924F6190900B27781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160C824F6190900B27781 /* main.m */; };
+		F25160D124F650AA00B27781 /* TlabVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160D024F650AA00B27781 /* TlabVideoViewController.m */; };
+		F25160D524F6510800B27781 /* TlabVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160D424F6510800B27781 /* TlabVideoManager.m */; };
+		F25160D824F6512900B27781 /* TlabNoticeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F25160D724F6512900B27781 /* TlabNoticeLabel.m */; };
 		F2F8B80B752FA87B4551A66B /* libPods-GPUImage_demo03.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2398829ABB583105DF73F3B /* libPods-GPUImage_demo03.a */; };
 /* End PBXBuildFile section */
 
@@ -24,15 +25,17 @@
 		F25160B324F6190800B27781 /* GPUImage_demo03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImage_demo03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25160B624F6190800B27781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F25160B724F6190800B27781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F25160B924F6190800B27781 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		F25160BA24F6190800B27781 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F25160BC24F6190800B27781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F25160BD24F6190800B27781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F25160C024F6190800B27781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F25160C224F6190900B27781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F25160C524F6190900B27781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F25160C724F6190900B27781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25160C824F6190900B27781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25160CF24F650AA00B27781 /* TlabVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TlabVideoViewController.h; sourceTree = "<group>"; };
+		F25160D024F650AA00B27781 /* TlabVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TlabVideoViewController.m; sourceTree = "<group>"; };
+		F25160D324F6510800B27781 /* TlabVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TlabVideoManager.h; sourceTree = "<group>"; };
+		F25160D424F6510800B27781 /* TlabVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TlabVideoManager.m; sourceTree = "<group>"; };
+		F25160D624F6512900B27781 /* TlabNoticeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TlabNoticeLabel.h; sourceTree = "<group>"; };
+		F25160D724F6512900B27781 /* TlabNoticeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TlabNoticeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +64,6 @@
 				3D489D768DF3D1AE667D6363 /* Pods-GPUImage_demo03.debug.xcconfig */,
 				5B1B9778546BF6CC794F6EFC /* Pods-GPUImage_demo03.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,10 +90,9 @@
 			children = (
 				F25160B624F6190800B27781 /* AppDelegate.h */,
 				F25160B724F6190800B27781 /* AppDelegate.m */,
-				F25160B924F6190800B27781 /* SceneDelegate.h */,
-				F25160BA24F6190800B27781 /* SceneDelegate.m */,
-				F25160BC24F6190800B27781 /* ViewController.h */,
-				F25160BD24F6190800B27781 /* ViewController.m */,
+				F25160CF24F650AA00B27781 /* TlabVideoViewController.h */,
+				F25160D024F650AA00B27781 /* TlabVideoViewController.m */,
+				F25160D224F650D600B27781 /* VideoRecord */,
 				F25160BF24F6190800B27781 /* Main.storyboard */,
 				F25160C224F6190900B27781 /* Assets.xcassets */,
 				F25160C424F6190900B27781 /* LaunchScreen.storyboard */,
@@ -99,6 +100,17 @@
 				F25160C824F6190900B27781 /* main.m */,
 			);
 			path = GPUImage_demo03;
+			sourceTree = "<group>";
+		};
+		F25160D224F650D600B27781 /* VideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				F25160D324F6510800B27781 /* TlabVideoManager.h */,
+				F25160D424F6510800B27781 /* TlabVideoManager.m */,
+				F25160D624F6512900B27781 /* TlabNoticeLabel.h */,
+				F25160D724F6512900B27781 /* TlabNoticeLabel.m */,
+			);
+			path = VideoRecord;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,10 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25160BE24F6190800B27781 /* ViewController.m in Sources */,
+				F25160D824F6512900B27781 /* TlabNoticeLabel.m in Sources */,
+				F25160D124F650AA00B27781 /* TlabVideoViewController.m in Sources */,
 				F25160B824F6190800B27781 /* AppDelegate.m in Sources */,
+				F25160D524F6510800B27781 /* TlabVideoManager.m in Sources */,
 				F25160C924F6190900B27781 /* main.m in Sources */,
-				F25160BB24F6190800B27781 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
